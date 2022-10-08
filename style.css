@@ -1,0 +1,38 @@
+.mySidenav {
+    background-color: #f9e9e0;
+}
+.mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.mySidenav a:hover {
+  left: 0;
+}
+
+.home {
+  top: 20px;
+  background-color: #ffb4a2;
+}
+
+.hobbies {
+  top: 80px;
+  background-color: #e5989b;
+}
+
+.contact {
+  top: 140px;
+  background-color: #b5838d;
+}
+
+.faq {
+    top: 200px;
+    background-color: #6d6875;
+  }
